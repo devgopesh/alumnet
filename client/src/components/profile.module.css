@@ -1,0 +1,102 @@
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profilesidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profileuserpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profileusertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profileusertitlename {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profileusertitlejob {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profileuserbuttons {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+    
+.profileusermenu {
+  margin-top: 30px;
+}
+
+.profileusermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profileusermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profileusermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profileusermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profileusermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profileusermenu ul li.active {
+  border-bottom: none;
+}
+
+.profileusermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profilecontent {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}

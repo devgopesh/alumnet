@@ -1,0 +1,14 @@
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profilesidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
